@@ -8,7 +8,7 @@ date:   2017-02-18 16:45:51 -0500
 Hey there... I didn't hear you come in, but stay a while (or at least until the end of this blog post). I'm going to share with you 5 Things I learned while working on the Gem project. 
 
 
-# 1. Zip Method
+## 1. Zip Method
 
 This may be my new favorite method when it comes dealing with multiple arrays. Essentially the Gem I created shows a user the top 250 beers, the user can then choose a beer based on number, and then it takes them right to profile page of that beer.
 
@@ -46,7 +46,7 @@ beer_review_array = [["Toppling Goliath", "Lagunitas", "IPA", "4.5", "profile/23
 The next time you find yourself needing to merge elements from different arrays, keep the Zip Method in mind.
 
 
-# 2 Navigating To A Webpage From Terminal
+## 2 Navigating To A Webpage From Terminal
 
 Ok, so this was actually WAAAAAYYYY easier than I anticipated. In fact, it was so easy that I literally LOLd (is that a word?) after I wrote the code for it.
 
@@ -92,7 +92,7 @@ Simply use the open url with back ticks. Just like this
 
 
 
-# 3 Getting Creative While Scraping
+## 3 Getting Creative With Your Scraping
 
 I had a really tought time extracting types and breweries, no matter how specific I got with my `.search`. It was either scraping neither or both. I'm not sure as to the exact reason why (please leave a comment if you know why :)  ), but as I examined the XML further I noticed that both were children of an object. One was even and the other was odd consistently. So in order to scrape it I had to do the following:
 	

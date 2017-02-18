@@ -16,7 +16,7 @@ I created a BeerReview object that has 5 attributes: name, brewery, type, rating
 
 ```
 def self.breweries
-   ` @breweries ||= @doc.search("div#extendedInfo a").children.select.each_with_index { |children, i| i.even? }.collect {|e|        e.text}`
+   ` @breweries ||= @doc.search("div#extendedInfo a").children.select.each_with_index { |children, i| i.even? }.collect {|e|  e.text}`
 end
 ```
 

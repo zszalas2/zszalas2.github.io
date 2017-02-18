@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "  3 Things I Learned Creating The Try New Beers Gem"
-date:   2017-02-18 21:45:50 +0000
+date:   2017-02-18 16:45:51 -0500
 ---
 
 

@@ -3,8 +3,8 @@ title: Hi there.
 header-img: img/LI_Profile_Pic_for_web.png
 email: zszalas@gmail.com
 copyright_name: zszalas2
-description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/index" # the subpath of your site, e.g. /blog
+description:  # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: TheZoltan
 github_username:  zszalas2
 email_username: zszalas@gmail.com

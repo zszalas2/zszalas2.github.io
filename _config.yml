@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: TheZoltan
 github_username:  zszalas2
 email_username: zszalas@gmail.com
+linkedin_username: zoltan-szalas
 
 # Build settings
 markdown: kramdown

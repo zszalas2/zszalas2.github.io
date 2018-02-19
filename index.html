@@ -2,9 +2,35 @@
 layout: default
 ---
 
-<img src="LI_Profile_Pic_for_web.png">
-<p>Started a company called Croissant. We are the #1 go to coworking app in NYC, DC, London, SF, LA, & other major cities.
-  I love business strategy, product, marketing, & testing to optimize for the best outcome.
-<br />
-Add me on Chess.com @zszalas2.
-</p>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    {{ post.excerpt }}
+    <p class="post-meta">Posted by {% if site.author %}{{ site.author }}{% else %}{{ site.github_username }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

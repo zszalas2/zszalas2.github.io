@@ -1310,6 +1310,9 @@ mark,
   padding: .2em;
   background-color: #fcf8e3;
 }
+.top-buffer {
+  margin-top:20px;
+}
 .text-left {
   text-align: left;
 }

@@ -3,9 +3,102 @@
  * Copyright 2015 Start Bootstrap
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
+ /* parallax manually added css*/
+
+ /* general styles */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 35px;
+}
+
+.pad-section-profile img {
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 35px;
+}
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/* additional sections */
+#home {
+  background: url("/img/Fold_Pic.png") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#about {
+}
+#services {
+  background-color: #99A6B5;
+  color: #ffffff;
+}
+#services .glyphicon {
+  display: inline-block;
+  font-size: 60px;
+  height: 140px;
+  line-height: 140px;
+  text-align: center;
+  vertical-align: middle;
+  width: 140px;
+}
+#information {
+  background: url("/img/about-bg.png") no-repeat center center fixed;
+  display: table;
+  position: relative;
+  width: 100%;
+  color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#information .panel {
+  opacity: 0.85;
+}
+#google_map {
+  height: 500px;
+}
+footer {
+  padding: 20px 0;
+}
+footer .glyphicon {
+  color: #333333;
+  font-size: 60px;
+}
+footer .glyphicon:hover {
+  color: #306d9f;
+}
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Helvetica';
   font-size: 20px;
   color: #404040;
 }
@@ -26,8 +119,8 @@ h6.powered_by {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
-  font-size: 13px;
-  margin-top: 0px;
+  font-size: 25px;
+  margin-top: 50px;
 }
 a {
   color: #404040;
